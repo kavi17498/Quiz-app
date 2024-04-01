@@ -1,0 +1,43 @@
+export const data = [
+    {
+      question: "Which device is required for the Internet connection?",
+      option1: "Modem",
+      option2: "Router",
+      option3: "LAN Cable",
+      option4: "Pen Drive",
+      ans: 1,
+      image: "data:image/png;base64,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",
+    },
+    {
+      question: "Which continent has the highest number of countries?",
+      option1: "Asia",
+      option2: "Europe",
+      option3: "North America",
+      option4: "Africa",
+      ans: 4,
+    },
+    {
+      question: "Junk e-mail is also called?",
+      option1: "Spam",
+      option2: "Fake",
+      option3: "Archived",
+      option4: "Bin",
+      ans: 1,
+    },
+    {
+      question: "A computer cannot BOOT if it does not have the?",
+      option1: "Application Software",
+      option2: "Internet",
+      option3: "Operating System",
+      option4: "Mouse",
+      ans: 3,
+    },
+    {
+      question: "First page of Website is termed as?",
+      option1: "Index Page",
+      option2: "Homepage",
+      option3: "Sitemap",
+      option4: "Pen Drive",
+      ans: 2,
+    },
+  ];
